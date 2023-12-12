@@ -1,0 +1,22 @@
+a.komicsklava {
+  background: url("https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700")
+    0 0 no-repeat;
+  float: right;
+  margin: 0px 0px 0px 15px;
+  background-size: 450px;
+}
+
+a.komicsklava img {
+  opacity: 10;
+  transition: opacity 0.2s;
+  float: right;
+  width: 450px;
+  text-align: center;
+  animation-duration: 0.9s;
+}
+a.komicsklava:hover img {
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: url("../photo.jpg");
+  background-size: 280px;
+}
