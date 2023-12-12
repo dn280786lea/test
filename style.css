@@ -8,7 +8,7 @@ a.komicsklava {
 
 a.komicsklava img {
   opacity: 10;
-  transition: opacity 0.2s;
+  transition: opacity 0.8s;
   float: right;
   width: 450px;
   text-align: center;
@@ -16,7 +16,8 @@ a.komicsklava img {
 }
 a.komicsklava:hover img {
   opacity: 0;
-  transition: opacity 0.5s;
   background: url("../photo.jpg");
   background-size: 280px;
+  transform: scaleY(1) scaleX(1) translateY(-16px) translateX(0px);
+  transition-delay: 0.3s;
 }
